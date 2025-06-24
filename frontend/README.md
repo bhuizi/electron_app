@@ -54,3 +54,12 @@ You can run the packaged app directly:
 ## Notes
 - The output paths and file names may differ if you build for other platforms or architectures.
 - For Windows or Linux builds, check the corresponding folders in `out/make/`.
+
+## Accessing Your Build via GitHub Actions
+
+After the workflow completes:
+
+1. Go to the Actions tab
+2. Click on your completed workflow run
+3. Scroll down to Artifacts
+4. Download the build zip file
